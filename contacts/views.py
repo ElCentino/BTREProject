@@ -36,13 +36,13 @@ def contact(request):
 
         contact.save()
 
-        send_mail(
-            'Property listing inquiry',
-            'There has been an enquiry for ' + listing + '. Sign into admin panel for more info',
-            settings.EMAIL_HOST_USER,
-            [realtor_email,],
-            fail_silently=False
-        )
+        # send_mail(
+        #     'Property listing inquiry',
+        #     'There has been an enquiry for ' + listing + '. Sign into admin panel for more info',
+        #     settings.EMAIL_HOST_USER,
+        #     [realtor_email,],
+        #     fail_silently=False
+        # )
 
         messages.success(request, 'Your request has been submitted, a realtor will get back to you shortly')
         return redirect('/listings/' + listing_id)
