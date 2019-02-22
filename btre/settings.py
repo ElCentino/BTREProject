@@ -138,3 +138,6 @@ EMAIL_HOST_USER = 'ozonatte@gmail.com'
 EMAIL_HOST_PASSWORD = 'rock.roll'
 EMAIL_USE_TLS = True
 # EMAIL_USE_SSL = True
+
+import django_heroku
+django_heroku.settings(locals())
