@@ -13,7 +13,7 @@ SECRET_KEY = 'd*ld0o6&1@2(3a8@)6qp+80pdt)dx*ooz9lco@gswue+97htx5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['159.89.17.30']
 
 
 # Application definition
@@ -138,8 +138,3 @@ EMAIL_HOST_USER = 'ozonatte@gmail.com'
 EMAIL_HOST_PASSWORD = 'rock.roll'
 EMAIL_USE_TLS = True
 # EMAIL_USE_SSL = True
-
-try:
-    from .local_settings import * 
-except ImportError:
-    pass
