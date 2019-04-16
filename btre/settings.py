@@ -73,8 +73,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'btredb',
-        'USER': 'postgres',
-        'PASSWORD': 'rock',
+        'USER': 'elcentino',
+        'PASSWORD': 'rock.roll',
         'HOST': 'localhost'
     }
 }
