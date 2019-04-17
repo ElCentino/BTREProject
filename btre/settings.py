@@ -13,7 +13,7 @@ SECRET_KEY = 'd*ld0o6&1@2(3a8@)6qp+80pdt)dx*ooz9lco@gswue+97htx5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['159.89.17.30']
+ALLOWED_HOSTS = ['159.89.17.30', 'localhost', 'beta.elcentino.com']
 
 
 # Application definition
